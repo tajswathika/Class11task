@@ -1,0 +1,315 @@
+1. Fix the bugs in below snippet
+
+```HTML
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+```
+Solution:
+
+Works fine, div tag is not closed and title tag is closed after opening body tag.
+
+2. Try the below one
+
+```HTML
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+```
+Solution:
+
+Output is not displayed as title close tag is missing and works after placing the same.
+---
+
+3. Design a contact us form with all fields as required.
+
+Solution:
+
+<!DOCTYPE html>
+<html>
+<body>
+    <table border =1 heigth = 90% width = 90%>
+        <tr>
+            <td colspan = 2 align =center><font size = 20><b>Guvi</b></font></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>3rd floor, D block, Kanagam Rd, Tharamani</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td><b>04478621555</b></td>
+        </tr>
+        <tr>
+            <td>Mobile</td>
+            <td><b>95478621555</b></td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td>aaa@bbb.com</td>
+        </tr>
+    </table>
+</body>
+</html>
+---
+
+4. Use certain HTML elements to display the following in a HTML page.
+
+- Programming Language
+  - JavaScript
+    1. Angular
+    2. React
+    3. Vue.js
+  - Python
+    1. Django Framework
+    2. Flask Framework
+  - Java
+    1. Spring
+    2. Maven
+    3. Hibernate
+- Database
+  - MySQL
+  - MongoDB
+  - Cansandra
+
+Solution:
+
+<!DOCTYPE html>
+<html>
+<body>
+ <ul style="list-style-type: none; margin: 0; padding: 0;">
+     <li>-Programming Language </li>
+     <li>
+         <ul style="list-style-type: none; margin: 1; padding: 1;">
+             <li>-JavaScript</li>
+             <li>
+                 <ol>
+                     <li>Angular</li>
+                     <li>React</li>
+                     <li>Vue.js</li>
+            </ol>
+            </li>
+            <li>-Python</li>
+            <li>
+                <ol>
+                    <li>Django Framework</li>
+                    <li>Flask Framework</li>
+                </ol>
+            </li>
+            <li>-Java</li>
+            <li>
+                <ol>
+                    <li>Spring</li>
+                    <li>Maven</li>
+                    <li>Hibernate</li>
+                </ol>
+            </li>
+        </ul>
+    </li>
+<li>-Database</li>
+<li>
+    <ol>
+        <li>MySQL</li>
+        <li>Mongo DB</li>
+        <li>Cansandra</li>
+</ol>
+</li>
+    </ul>
+</body>
+</html>
+
+5. Create an element that helps you to open the https://google.com in separate new tab.
+
+Solution:
+
+<!DOCTYPE html>
+<html>
+<body>
+ <a href="http://www.google.co.in" target =blank>"Click here</a> to go to google new tab"
+</body>
+</html>
+
+6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+Solution:
+
+<!DOCTYPE html>
+<html>
+<body>
+<input type ="radio" name="Slrradio"> Salaried
+<input type ="radio" name="Slrradio"> Own Business
+</body>
+</html>
+
+7. Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+
+Solution:
+
+<!DOCTYPE html>
+<html>
+    <style>
+        td{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-style:oblique
+        }
+</style>
+<body>
+    <!-- -->
+    <table height=800 width=1000 align=center style="border-style: solid;background-color: black;">
+        <tr >
+            <td>
+                <table style="border-style: solid;background-color:white" width=600 height=400 align=center>
+     <tr style="background-color: red;">
+         <td style ="font-family: Georgia, 'Times New Roman', Times, serif" colspan="3">Yes! I want to subscribe to Mag-o-zine</td>
+     </tr>
+     <tr font-family:cursive; font-style: italic;>
+         <td>Joe <hr></td>
+         <td>&nbsp;</td>
+         <td>Schmeqeqqie<hr></td>
+     </tr>
+     <tr>
+         <td style = font-weight:normal>
+            Firstname
+         </td>
+         <td>&nbsp;</td>
+         <td style = font-weight:normal>
+        Lastname
+         </td>
+     </tr>
+         <tr><td colspan="3" align = center>1001 Washington Street<hr></td></tr>
+         <tr><td colspan=3>Address</td></tr>
+         <tr>
+             <td>Alberta<hr></td>
+             <td>CA<hr></td>
+             <td>9999<hr></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>State</td>
+                <td>Pin</td>
+            </tr>
+            <tr>
+                <td>Subscribe for:</td>
+                <td>1 year ($19.95)<input type ="checkbox" name="" id=""></td>
+                <td><input type ="checkbox" name="" id="">2 years ($35.00)</td>
+            </tr>
+
+            <tr><td colspan=3>Send me more information about:</td></tr>
+<tr><td colspan=3><input type=checkbox>Computer - Zine</td></tr>
+<tr><td colspan=3><input type=checkbox>Fishing - Zine</td></tr>
+<tr><td colspan=3><input type=checkbox>Cat-O-Zine</td></tr>
+     
+ </table>
+</td>
+ </tr>
+</table>
+</body>
+</html>
+
+8. Use the table tag to design given image [Click here](https://www.bapugraphics.com/assets/img/port_upload_dir/table-4.jpg).
+
+Solution:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table height =90% width =90% border =0>
+        <tr>
+            <td align =center>Health chart</td>
+        </tr>
+    </table>
+    <table height =90% width =90% border=1>
+
+        <tr>
+            <th>State of health</th>
+        
+            <th colspan =2>Fasting value</th>
+            <th>After Remaining</th>
+        </tr>
+            <tr>
+            <td></td>
+            <td><b>Minimum</b></td>
+            <td><b>Normal</b></td>
+            <td><b>2 hours of Eating</b></td>
+        </tr>
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>more than 126</td>
+            <td>Not Applicable</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+    <style>
+        table,th,td,tr{
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+             
+    </style>
+
+</body>
+</html>
+
+9. Write HTML input tags snippet to show default values for all Form elements.
+
+---
+
+10. In your, HTML page add the below line and Highlight it without using any CSS.
+
+- "HTML & CSS is awesome"
+
+Solution:
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<mark> HTML & CSS is awesome</mark>
+
+</body>
+</html>
+
+
+11. Create an HTML page, which should contain all types of input elements.
+
+Solution:
